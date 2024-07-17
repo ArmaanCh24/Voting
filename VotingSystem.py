@@ -1,9 +1,9 @@
 c,n,h,f,a=0,0,0,0,0
 while(c<200):    
-    print("1. Nikhil")
-    print("2. Armaan")
-    print("3. Faisal")
-    print("4. Hasnain")
+    print("1. Jack")
+    print("2. John")
+    print("3. Sarah")
+    print("4. Mike")
     print("5. Results")
     print("6. Exit")
     ch=int(input("Enter your vote: "))
@@ -21,16 +21,16 @@ while(c<200):
         h+=1
     elif ch==5:
         if n>a and n>f and n>h:
-            print(f"The winner is Nikhil with {n} votes!")
+            print(f"The winner is Jack with {n} votes!")
             break
         elif (a>n) and (a>f) and (a>h):
-            print(f"The winner is Armaan with {a} votes!")
+            print(f"The winner is John with {a} votes!")
             break
         elif (f>a) and (f>n) and (f>h):
-            print(f"The winner is Faisal with {f} votes!")
+            print(f"The winner is Sarah with {f} votes!")
             break
         else:
-            print(f"The winner is Hasnain with {h} votes!")
+            print(f"The winner is Mike with {h} votes!")
             break
     elif ch==6:
         print("Exiting...")
